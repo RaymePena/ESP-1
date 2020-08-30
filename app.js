@@ -3,32 +3,32 @@ $(document).ready(function () {
 	const cards = [
 		{ name: 'Circle', value: '&#9898;' },
 		{ name: 'Square', value: '&#9744;' },
-		{ name: 'Start', value: '&#9734;' },
+		{ name: 'Star', value: '&#9734;' },
 		{ name: 'Plus', value: '&plus;' },
 		{ name: 'Waves', value: '&#8779' },
 		{ name: 'Circle', value: '&#9898;' },
 		{ name: 'Square', value: '&#9744;' },
-		{ name: 'Start', value: '&#9734;' },
+		{ name: 'Star', value: '&#9734;' },
 		{ name: 'Plus', value: '&plus;' },
 		{ name: 'Waves', value: '&#8779' },
 		{ name: 'Circle', value: '&#9898;' },
 		{ name: 'Square', value: '&#9744;' },
-		{ name: 'Start', value: '&#9734;' },
+		{ name: 'Star', value: '&#9734;' },
 		{ name: 'Plus', value: '&plus;' },
 		{ name: 'Waves', value: '&#8779' },
 		{ name: 'Circle', value: '&#9898;' },
 		{ name: 'Square', value: '&#9744;' },
-		{ name: 'Start', value: '&#9734;' },
+		{ name: 'Star', value: '&#9734;' },
 		{ name: 'Plus', value: '&plus;' },
 		{ name: 'Waves', value: '&#8779' },
 		{ name: 'Circle', value: '&#9898;' },
 		{ name: 'Square', value: '&#9744;' },
-		{ name: 'Start', value: '&#9734;' },
+		{ name: 'Star', value: '&#9734;' },
 		{ name: 'Plus', value: '&plus;' },
 		{ name: 'Waves', value: '&#8779' },
 		{ name: 'Circle', value: '&#9898;' },
 		{ name: 'Square', value: '&#9744;' },
-		{ name: 'Start', value: '&#9734;' },
+		{ name: 'Star', value: '&#9734;' },
 		{ name: 'Plus', value: '&plus;' },
 		{ name: 'Waves', value: '&#8779' }
 	];
@@ -74,7 +74,7 @@ $(document).ready(function () {
 
 	function speak() {
 		speech.text = `This is a ESP game, I am going to put to the test your censory powers, 
-			when you are ready say out loud either a Circle, a Start, a Waves, Plus, or Square. Good Luck`;
+			when you are ready say out loud either a Circle, a Star, a Waves, Plus, or Square. Good Luck`;
 		speech.pitch = '0.5';
 		speech.rate = '1';
 		randomShuffleCard();
