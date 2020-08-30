@@ -57,7 +57,7 @@ $(document).ready(function () {
 			$('.back-card').hide();
 			$('.front-card').show();
 			count++;
-			if (count <= 25) {
+			if (count < 25) {
 				setTimeout(function () {
 					nextCard();
 				}, 3000);
