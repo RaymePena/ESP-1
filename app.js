@@ -45,8 +45,7 @@ $(document).ready(function () {
 	let randomCardIndex = 1;
 	let card;
 
-	speak();
-
+	$('#start').click(() => speak());
 	/**
 	 * on result is call after the speech ends
 	 * @param {} event  is the object receive after recognition start
