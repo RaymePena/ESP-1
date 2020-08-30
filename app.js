@@ -53,7 +53,7 @@ $(document).ready(function () {
 	recognition.onresult = function (event) {
 		userGuess = event.results[0][0].transcript.toLowerCase();
 		let cardName = cards[randomCardIndex].name.toLocaleLowerCase();
-		if (userGuess) {
+		if (userGuess || userGuess === 'next') {
 			$('.back-card').hide();
 			$('.front-card').show();
 			count++;
@@ -73,8 +73,8 @@ $(document).ready(function () {
 	};
 
 	function speak() {
-		speech.text = `This is a ESP game, I am going to put to the test your censory power, 
-			when you are ready say out loud either a Circle, a Start, a Waves, Plus or Square. Good Luck`;
+		speech.text = `This is a ESP game, I am going to put to the test your censory powers, 
+			when you are ready say out loud either a Circle, a Start, a Waves, Plus, or Square. Good Luck`;
 		speech.pitch = '0.5';
 		speech.rate = '1';
 		randomShuffleCard();
